@@ -1,0 +1,114 @@
+# Item names or IDs for bait for various monsters. Supports material data ('egg:2' etc... Use single quotes when doing this)
+# If you want to disable taming a certain mob set the code to 0 or adjust permissions.
+Bat: Spider_Eye
+Blaze: Blaze_Rod
+CaveSpider: String
+Chicken: Seeds
+Cow: Seeds
+Creeper: Flint
+EnderDragon: 0
+Enderman: Eye_Of_Ender
+Ghast: Ghast_Tear
+Giant: Gold_Block
+Golem: Iron_Ingot
+MagmaCube: Magma_Cream
+MushroomCow: Red_Mushroom
+Ozelot: Raw_Fish
+Pig: Pork
+PigZombie: Pork
+Sheep: Sugar_Cane
+Silverfish: Stick
+Skeleton: Bone
+Slime: Slime_Ball
+SnowMan: Snow_Ball
+Spider: String
+Squid: Raw_Fish
+Villager: 0
+VillagerGolem: Iron_Ingot
+Witch: Nether_Warts
+WitherBoss: 0
+Wolf: Bone
+Zombie: Feather
+# Other options
+# If Provokable is true then you are able to hurt your own pet. Your pet will get angry and run away or hurt you.
+Provokable: true
+# Right click your pet with a saddle to ride it.
+Ridable: true
+# If this is true, punching the creature with the bait will tame it, without hurting it. You can still use the right click method too. NOTE: This is inherently incompatible with Provokable: true.
+AttackTame: false
+# Distance from player that the pet will stop following and wander around a bit.
+IdleDistance: 5
+# Distance pets will check for entities to attack
+AttackDistance: 10
+# Allow ops to bypass permissions
+OpsBypassPerms: false
+# Maximum number of pets a player is allowed to have.
+MaxPetsPerPlayer: 20
+# If true aggressive and defensive pets can attack other players
+PetsAttackPlayers: true
+# If true aggressive and defensive pets can attack player pets
+PetsAttackPets: true
+# Don't change this
+MainLoop: 1000
+# Set to true if you don't use permissions
+DisablePermissions: true
+# Default pet mode (P = Passive, D = Defensive, A = Aggressive)
+DefaultPetMode: A
+# Change the command prefix. !!! You MUST edit the plugin.yml after changing this !!
+CommandPrefix: pet
+# This makes pets invincible
+InvinciblePets: false
+# Maximum pets a player can spawn with /petspawn
+MaxSpawnCount: 1
+# Override the default taming of wolves and cats
+OverrideDefaultTaming: true
+# Files that contain names for random pet names
+NameFiles:
+  - male-names.txt
+  - female-names.txt
+# Automatically randomize pet names
+RandomizePetNames: false
+# Attempt to spawn pets in their last known location
+RememberPetLocation: false
+# Default pet age when using /petspawn (adult or baby)
+DefaultPetAge: adult
+# If the default for spawned babies is baby then set this to true to keep them from growing up
+LockSpawnedBabies: false
+# Prevent the pet from dropping items when player does a /petkill
+NoDropOnKillCommand: false
+# Display pet names above pet
+CustomNamePlates: false
+# Default color for pet nameplates
+NamePlateColor: WHITE
+# Enable mcMMO taming XP
+mcMMOSuport: false
+mcMMOTamingXP:
+  Bat: 10
+  Blaze: 10
+  CaveSpider: 10
+  Chicken: 10
+  Cow: 10
+  Creeper: 10
+  EnderDragon: 10
+  Enderman: 10
+  Ghast: 10
+  Giant: 10
+  Golem: 10
+  MagmaCube: 10
+  MushroomCow: 10
+  Ozelot: 10
+  Pig: 10
+  PigZombie: 10
+  Sheep: 10
+  Silverfish: 10
+  Skeleton: 10
+  Slime: 10
+  SnowMan: 10
+  Spider: 10
+  Squid: 10
+  Villager: 10
+  VillagerGolem: 10
+  Witch: 10
+  WitherBoss: 10
+  Wolf: 10
+  Zombie: 10

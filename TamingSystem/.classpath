@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry excluding="com/cnaude/petcreeper/Commands/PetSaddleCommand.java|com/cnaude/petcreeper/Commands/PetNameCommand.java|com/cnaude/petcreeper/Commands/PetModeCommand.java|com/cnaude/petcreeper/Commands/PetListCommand.java|com/cnaude/petcreeper/Commands/PetKillCommand.java|com/cnaude/petcreeper/Commands/PetInfoCommand.java|com/cnaude/petcreeper/Commands/PetGiveCommand.java|com/cnaude/petcreeper/Commands/PetFreeCommand.java|com/cnaude/petcreeper/Commands/PetSpawnCommand.java|com/cnaude/petcreeper/Commands/PetAgeCommand.java|com/cnaude/petcreeper/Commands/PetColorCommand.java|com/caved_in/TamingSystem/Commands/PetAgeCommand.java|com/caved_in/TamingSystem/Commands/PetColorCommand.java|com/caved_in/TamingSystem/Commands/PetFreeCommand.java|com/caved_in/TamingSystem/Commands/PetGiveCommand.java|com/caved_in/TamingSystem/Commands/PetInfoCommand.java|com/caved_in/TamingSystem/Commands/PetKillCommand.java|com/caved_in/TamingSystem/Commands/PetListCommand.java|com/caved_in/TamingSystem/Commands/PetModeCommand.java|com/caved_in/TamingSystem/Commands/PetNameCommand.java|com/caved_in/TamingSystem/Commands/PetSaddleCommand.java|com/caved_in/TamingSystem/Commands/PetSpawnCommand.java|com/caved_in/TamingSystem/|com/caved_in/|com/cnaude/petcreeper/Commands/PetReloadCommand.java|com/cnaude/petcreeper/Commands/PetCommand.java|com/cnaude/petcreeper/PetFile.java|com/cnaude/petcreeper/Pet.java" kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7"/>
+	<classpathentry kind="lib" path="C:/Users/Brandon/Downloads/SkillSystem.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Brandon/Downloads/Vault.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Brandon/Downloads/spigot-1.6.2-R0.1-SNAPSHOT (2).jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

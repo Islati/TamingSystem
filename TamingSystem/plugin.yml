@@ -1,0 +1,11 @@
+name: TamingSystem
+main: TamingSystem.TamingSystem
+version: 2.0
+description: Implements the ability to tame hostile/non-conventional entites
+author: TheGamersCave / Brandon Curtis
+depend: [SkillSystem,Vault]
+softdepends: [mcMMO,EpicBossRecoded]
+commands:
+    petreload:
+        description: Reload configuration
+        usage: /petreload
